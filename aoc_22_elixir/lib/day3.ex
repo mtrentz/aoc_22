@@ -104,5 +104,5 @@ defmodule DayThree do
   end
 end
 
-DayThree.solve_pt1()
-DayThree.solve_pt2()
+# DayThree.solve_pt1()
+# DayThree.solve_pt2()

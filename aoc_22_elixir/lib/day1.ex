@@ -52,5 +52,5 @@ defmodule DayOne do
   end
 end
 
-DayOne.solve_pt1()
-DayOne.solve_pt2()
+# DayOne.solve_pt1()
+# DayOne.solve_pt2()

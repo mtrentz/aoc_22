@@ -70,5 +70,5 @@ defmodule DayFour do
   end
 end
 
-DayFour.solve_pt1()
-DayFour.solve_pt2()
+# DayFour.solve_pt1()
+# DayFour.solve_pt2()

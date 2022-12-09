@@ -121,5 +121,5 @@ defmodule DayTwo do
   end
 end
 
-DayTwo.solve_pt1()
-DayTwo.solve_pt2()
+# DayTwo.solve_pt1()
+# DayTwo.solve_pt2()

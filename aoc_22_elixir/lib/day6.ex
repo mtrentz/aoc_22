@@ -78,7 +78,22 @@ defmodule DaySix do
 
     IO.inspect(resultado)
   end
+
+  def solve_test do
+    {:ok, datastream} = File.read("input/day6.txt")
+
+    res =
+      datastream
+      |> String.graphemes()
+      # DEVERIA TER USADO ISSO
+      |> Enum.chunk_every(4, 1, :discard)
+
+    # E tb Enum.uniq
+
+    IO.inspect(res)
+  end
 end
 
 DaySix.solve_pt1()
 DaySix.solve_pt2()
+# DaySix.solve_test()
